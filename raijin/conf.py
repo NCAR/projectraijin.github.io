@@ -54,7 +54,7 @@ if on_rtd:
 else:
     import sphinx_bootstrap_theme
     html_theme = 'bootstrap'
-    html_theme_path = [sphinx_bootstrap_theme.get_html_theme_path()]
+    html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # # Logo & Title
 # html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
