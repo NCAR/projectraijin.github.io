@@ -47,7 +47,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bootstrap-3-theme'
+html_theme = 'bootstrap-3'
 html_theme_path = ['..']
 html_last_updated_fmt = '%d %B %Y'
 
