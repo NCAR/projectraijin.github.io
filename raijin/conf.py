@@ -32,7 +32,7 @@ copyright = f'2021-{datetime.datetime.now().year}, {author}'
 extensions = []
 
 # Define what extensions will parse which kind of source file
-source_suffix = '.rst'
+source_suffix = []
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = []
