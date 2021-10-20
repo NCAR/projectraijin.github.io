@@ -56,21 +56,21 @@ else:
     html_theme = 'bootstrap'
     html_theme_path = [sphinx_bootstrap_theme.get_html_theme_path()]
 
-# Logo & Title
-html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
-html_title = ''
+# # Logo & Title
+# html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
+# html_title = ''
 
-# Favicon
-html_favicon = '_static/images/icons/favicon.ico'
+# # Favicon
+# html_favicon = '_static/images/icons/favicon.ico'
 
-# Permalinks Icon
-html_permalinks_icon = '<i class="bi bi-link"></i>'
+# # Permalinks Icon
+# html_permalinks_icon = '<i class="bi bi-link"></i>'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = ['custom.css']
+# html_css_files = ['custom.css']
 # html_js_files = ['custom.js']
 
 # # HTML Theme-specific Options
@@ -87,13 +87,13 @@ html_css_files = ['custom.css']
 #     'sponsor_logo': '/_static/images/logos/footer-logo-nsf.png',
 # }
 
-# Disable sidebars on all pages
-html_sidebars = {
-    '**': [],
-}
+# # Disable sidebars on all pages
+# html_sidebars = {
+#     '**': [],
+# }
 
-# Panels config
-panels_add_bootstrap_css = False
+# # Panels config
+# panels_add_bootstrap_css = False
 
 # CUSTOM SCRIPTS ==============================================================
 
