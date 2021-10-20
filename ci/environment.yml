@@ -3,5 +3,4 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - sphinx-build
 #  - sphinx-book-theme
