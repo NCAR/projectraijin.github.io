@@ -13,6 +13,7 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
+import os
 import datetime
 import shutil
 
@@ -47,9 +48,13 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'bootstrap-3'
-html_theme_path = ['..']
-html_last_updated_fmt = '%d %B %Y'
+on_rtd = os.environ.get('READTHEDOCS') == 'True'
+if on_rtd:
+    html_theme = 'default'
+else:
+    import sphinx_bootstrap_theme
+    html_theme = 'bootstrap'
+    html_theme_path = [sphinx_bootstrap_theme.get_html_theme_path()]
 
 # Logo & Title
 html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
