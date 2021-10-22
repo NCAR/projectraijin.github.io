@@ -5,4 +5,5 @@ dependencies:
   - python
   - myst-nb==0.12.3
   - sphinx
+  - sphinx-book-theme
   - sphinx_bootstrap_theme

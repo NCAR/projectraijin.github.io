@@ -50,9 +50,12 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import sphinx_bootstrap_theme
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme = 'sphinx_pythia_theme'
+html_theme_path = ['..']
+html_last_updated_fmt = '%d %B %Y'
+# import sphinx_bootstrap_theme
+# html_theme = 'bootstrap'
+# html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Logo & Title
 html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
@@ -68,7 +71,7 @@ html_favicon = '_static/images/icons/favicon.ico'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-# html_css_files = ['custom.css']
+html_css_files = ['custom.css']
 # html_js_files = ['custom.js']
 
 # # HTML Theme-specific Options
