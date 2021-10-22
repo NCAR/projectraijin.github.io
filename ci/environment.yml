@@ -3,5 +3,6 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - myst-nb==0.12.3
   - sphinx
   - sphinx_bootstrap_theme

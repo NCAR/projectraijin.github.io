@@ -29,10 +29,12 @@ copyright = f'2021-{datetime.datetime.now().year}, {author}'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = []
+extensions = ['myst_nb']
 
 # Define what extensions will parse which kind of source file
-# source_suffix = '.rst'
+source_suffix = {
+    '.myst': 'myst-nb',
+}
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = []
@@ -52,12 +54,12 @@ import sphinx_bootstrap_theme
 html_theme = 'bootstrap'
 html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
-# # Logo & Title
-# html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
-# html_title = ''
+# Logo & Title
+html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
+html_title = ''
 
-# # Favicon
-# html_favicon = '_static/images/icons/favicon.ico'
+# Favicon
+html_favicon = '_static/images/icons/favicon.ico'
 
 # # Permalinks Icon
 # html_permalinks_icon = '<i class="bi bi-link"></i>'
@@ -90,6 +92,11 @@ html_static_path = ['_static']
 
 # # Panels config
 # panels_add_bootstrap_css = False
+
+# MyST config
+myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image']
+myst_url_schemes = ('http', 'https', 'mailto')
+jupyter_execute_notebooks = 'off'
 
 # CUSTOM SCRIPTS ==============================================================
 
