@@ -69,29 +69,35 @@ html_favicon = '_static/images/icons/favicon.ico'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 html_css_files = ['custom.css']
-# html_js_files = ['custom.js']
 
-# # HTML Theme-specific Options
-# html_theme_options = {
-#     'onepagers': [
-#         'index',
-#     ],
-#     'logos_bar': {
-#         'NCAR': '/_static/images/logos/NCAR-contemp-logo-blue.svg',
-#         'Unidata': '/_static/images/logos/Unidata_logo_horizontal_1200x300.svg',
-#         'UAlbany': '/_static/images/logos/UAlbany-A2-logo-purple-gold.svg',
-#     },
-#     'sponsor_text': 'This material is based upon work supported by the National Science Foundation under Grant Nos. 2026863 and 2026899. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.',
-#     'sponsor_logo': '/_static/images/logos/footer-logo-nsf.png',
-# }
+# HTML Theme-specific Options
+html_theme_options = {
+    'navbar_sidebarrel': False,
 
-# # Disable sidebars on all pages
-# html_sidebars = {
-#     '**': [],
-# }
+    # Render the current pages TOC in the navbar. (Default: true)
+    'navbar_pagenav': False,
 
-# # Panels config
-# panels_add_bootstrap_css = False
+    # HTML navbar class (Default: "navbar") to attach to <div> element.
+    # For black navbar, do "navbar navbar-inverse"
+    'navbar_class': "navbar navbar-inverse",
+
+    # Location of link to source.
+    # Options are "nav" (default), "footer" or anything else to exclude.
+    'source_link_position': "none",
+
+    # Bootswatch (http://bootswatch.com/) theme.
+    #
+    # Options are nothing (default) or the name of a valid theme
+    # such as "cosmo" or "sandstone".
+    #
+    # The set of valid themes depend on the version of Bootstrap
+    # that's used (the next config option).
+    #
+    # Currently, the supported themes are:
+    # - Bootstrap 2: https://bootswatch.com/2
+    # - Bootstrap 3: https://bootswatch.com/3
+    'bootswatch_theme': "united",
+}
 
 # MyST config
 myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image']
