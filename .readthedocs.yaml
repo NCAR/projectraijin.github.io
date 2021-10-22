@@ -8,11 +8,6 @@ version: 2
 build:
   image: latest
 
-python:
-  install:
-    - method: pip
-      path: .
-
 sphinx:
   configuration: raijin/conf.py
   fail_on_warning: false
