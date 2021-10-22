@@ -97,7 +97,7 @@ html_theme_options = {
     # Currently, the supported themes are:
     # - Bootstrap 2: https://bootswatch.com/2
     # - Bootstrap 3: https://bootswatch.com/3
-    'bootswatch_theme': "nothing",
+    'bootswatch_theme': "cosmo",
 }
 
 # MyST config
