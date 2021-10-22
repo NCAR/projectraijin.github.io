@@ -1,0 +1,7 @@
+name: raijin
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - sphinx
+  - sphinx_bootstrap_theme
