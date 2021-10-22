@@ -72,6 +72,7 @@ html_css_files = ['custom.css']
 
 # HTML Theme-specific Options
 html_theme_options = {
+    # Render the next and previous page links in navbar. (Default: true)
     'navbar_sidebarrel': False,
 
     # Render the current pages TOC in the navbar. (Default: true)
@@ -96,7 +97,7 @@ html_theme_options = {
     # Currently, the supported themes are:
     # - Bootstrap 2: https://bootswatch.com/2
     # - Bootstrap 3: https://bootswatch.com/3
-    'bootswatch_theme': "united",
+    'bootswatch_theme': "nothing",
 }
 
 # MyST config
