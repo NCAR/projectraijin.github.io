@@ -34,3 +34,13 @@ Please see our Contributor’s Guide ...
 ## The Project Pythia Team
 
 The ...
+
+```{toctree}
+---
+hidden: True
+maxdepth: 1
+---
+about.md
+contributing.md
+geocat.md
+```
