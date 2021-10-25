@@ -9,14 +9,16 @@
 
 # -- Path setup --------------------------------------------------------------
 
+import datetime
+
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
 import os
-import datetime
-import shutil
+import sys
 
+sys.path.insert(0, os.path.abspath('_extensions'))
 
 # -- Project information -----------------------------------------------------
 
@@ -29,7 +31,10 @@ copyright = f'2021-{datetime.datetime.now().year}, {author}'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['myst_nb']
+extensions = [
+    'myst_nb',
+    'pythia',
+]
 
 # Define what extensions will parse which kind of source file
 source_suffix = {
@@ -50,9 +55,12 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-import sphinx_bootstrap_theme
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme = 'sphinx_pythia_theme'
+html_theme_path = ['..']
+html_last_updated_fmt = '%d %B %Y'
+# import sphinx_bootstrap_theme
+# html_theme = 'bootstrap'
+# html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
 
 # Logo & Title
 html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
@@ -61,8 +69,8 @@ html_title = ''
 # Favicon
 html_favicon = '_static/images/icons/favicon.ico'
 
-# # Permalinks Icon
-# html_permalinks_icon = '<i class="bi bi-link"></i>'
+# Permalinks Icon
+html_permalinks_icon = '<i class="bi bi-link"></i>'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -72,32 +80,51 @@ html_css_files = ['custom.css']
 
 # HTML Theme-specific Options
 html_theme_options = {
-    # Render the next and previous page links in navbar. (Default: true)
-    'navbar_sidebarrel': True,
+    'onepagers': [
+        'index',
+    ],
+    'logos_bar': {
+        'NCAR': '/_static/images/logos/NCAR-contemp-logo-blue.svg',
+        'Unidata': '/_static/images/logos/Unidata_logo_horizontal_1200x300.svg',
+        'UAlbany': '/_static/images/logos/UAlbany-A2-logo-purple-gold.svg',
+    },
+    'sponsor_text': 'This material is based upon work supported by the National Science Foundation under Grant Nos. 2026863 and 2026899. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.',
+    'sponsor_logo': '/_static/images/logos/footer-logo-nsf.png',
+}
 
-    # Render the current pages TOC in the navbar. (Default: true)
-    'navbar_pagenav': False,
+# # HTML sphinx_bootstrap_theme Theme-specific Options
+# html_theme_options = {
+#     # Render the next and previous page links in navbar. (Default: true)
+#     'navbar_sidebarrel': True,
+#
+#     # Render the current pages TOC in the navbar. (Default: true)
+#     'navbar_pagenav': False,
+#
+#     # HTML navbar class (Default: "navbar") to attach to <div> element.
+#     # For black navbar, do "navbar navbar-inverse"
+#     'navbar_class': "navbar navbar-inverse",
+#
+#     # Location of link to source.
+#     # Options are "nav" (default), "footer" or anything else to exclude.
+#     'source_link_position': "none",
+#
+#     # Bootswatch (http://bootswatch.com/) theme.
+#     #
+#     # Options are nothing (default) or the name of a valid theme
+#     # such as "cosmo" or "sandstone".
+#     #
+#     # The set of valid themes depend on the version of Bootstrap
+#     # that's used (the next config option).
+#     #
+#     # Currently, the supported themes are:
+#     # - Bootstrap 2: https://bootswatch.com/2
+#     # - Bootstrap 3: https://bootswatch.com/3
+#     # 'bootswatch_theme': "cosmo",
+# }
 
-    # HTML navbar class (Default: "navbar") to attach to <div> element.
-    # For black navbar, do "navbar navbar-inverse"
-    'navbar_class': "navbar navbar-inverse",
-
-    # Location of link to source.
-    # Options are "nav" (default), "footer" or anything else to exclude.
-    'source_link_position': "none",
-
-    # Bootswatch (http://bootswatch.com/) theme.
-    #
-    # Options are nothing (default) or the name of a valid theme
-    # such as "cosmo" or "sandstone".
-    #
-    # The set of valid themes depend on the version of Bootstrap
-    # that's used (the next config option).
-    #
-    # Currently, the supported themes are:
-    # - Bootstrap 2: https://bootswatch.com/2
-    # - Bootstrap 3: https://bootswatch.com/3
-    # 'bootswatch_theme': "cosmo",
+# Disable sidebars on all Portal Pages
+html_sidebars = {
+    '**': [],
 }
 
 # MyST config
@@ -108,4 +135,3 @@ jupyter_execute_notebooks = 'off'
 # CUSTOM SCRIPTS ==============================================================
 
 # Copy root files into content pages ------------------------------------------
-

@@ -4,5 +4,7 @@ channels:
 dependencies:
   - python
   - myst-nb==0.12.3
+  - pre-commit
   - sphinx
-  - sphinx_bootstrap_theme
+  - sphinx-book-theme
+#  - sphinx_bootstrap_theme
