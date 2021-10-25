@@ -12,7 +12,6 @@ term pursuit of producing the world’s first global cloud resolving model.
 
 The adoption of unstructured mesh models by so many geoscience communities brings with it a two-
 fold cost. First, the increased model resolution enabled by these dycores results in the output of more
-
 data, further exacerbating an already existing “Big Data” problem. Second, the existing, general purpose
 software tools available for analyzing, post-processing, and visualizing geoscience model outputs primarily
 operate on structured grid data, providing little or no support for unstructured meshes. The combined
@@ -38,9 +37,7 @@ scope of this proposal, and helping ensure the long term sustainability of the p
 
 The primary environment for this effort will be the Scientific Python Ecosystem. We will leverage, in
 particular, the NSF-supported, open development Xarray and Dask packages, and the Pangeo community.
-To better support both of our primary goals, our work will be conducted under an open development 
-model that encourages participation in the project at all levels. Relatedly, to better support 
-interoperability, sustainability, usability and repurposing our work, we will adhere to practices 
+To better support both of our primary goals, our work will be conducted under an open development
+model that encourages participation in the project at all levels. Relatedly, to better support
+interoperability, sustainability, usability and repurposing our work, we will adhere to practices
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects
-
-
