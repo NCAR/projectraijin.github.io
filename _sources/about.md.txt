@@ -1,4 +1,4 @@
-# About
+# Read More
 
 Culminating nearly two decades of development and evaluation, the climate and global weather modeling
 communities have in recent years begun to transition in earnest to dynamical cores employing more flexible,
@@ -40,4 +40,4 @@ particular, the NSF-supported, open development Xarray and Dask packages, and th
 To better support both of our primary goals, our work will be conducted under an open development
 model that encourages participation in the project at all levels. Relatedly, to better support
 interoperability, sustainability, usability and repurposing our work, we will adhere to practices
-advocated by the NSF Recommended Standards and Specifications for EarthCube Projects
+advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.
