@@ -1,4 +1,4 @@
-![](_static/images/logos/GeoCAT_Final_Logos-01.svg)
+![](_static/images/mpas-cam_se.jpg)
 
 # Project Raijin
 
