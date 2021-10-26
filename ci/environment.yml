@@ -7,4 +7,5 @@ dependencies:
   - pre-commit
   - sphinx
   - sphinx-book-theme
+  - sphinx-panels
 #  - sphinx_bootstrap_theme
