@@ -15,6 +15,23 @@
 </div>
 {% endblock navbarmenu %}
 
+{% block extrahead %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-JMJ0JNQ2VP"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+            dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+        gtag('config', 'G-JMJ0JNQ2VP')
+    </script>
+    {{ super() }}
+{% endblock %}
+
 {% block extrafooter %}
 <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?theme=grey&tracking=1&thirdparty=1&always=1&hideDetailsBtn=1&showPolicyLink=1&privacyPage=https%3A%2F%2Fdocumatt.com%2Fabout%2Flegal%2Fprivacy%2F"></script>

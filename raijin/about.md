@@ -1,4 +1,4 @@
-# Read More
+# About
 
 Project Raijin, entitled "Collaborative Research: EarthCube Capabilities:
 Raijin: Community Geoscience Analysis Tools for Unstructured Mesh Data",
