@@ -54,11 +54,11 @@ exclude_patterns = []
 html_theme = 'sphinx_documatt_theme'
 
 # Logo & Title
-html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
+html_logo = '_static/images/logos/Logos.png'
 html_title = 'Project Raijin'
 
 # Favicon
-html_favicon = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
+html_favicon = '_static/images/logos/Logos.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -67,7 +67,7 @@ html_static_path = ['_static']
 
 # HTML sphinx_bootstrap_theme Theme-specific Options
 html_theme_options = {
-    'header_text': 'Project Raijin',
+    'header_text': '',
     'header_logo_style': 'width: 10rem;',
     'footer_text': 'This material is based upon work supported by the National '
                    'Science Foundation. Any opinions, findings, and conclusions '
