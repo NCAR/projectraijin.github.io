@@ -6,5 +6,6 @@ dependencies:
   - myst-nb==0.12.3
   - pre-commit
   - sphinx
+  - sphinx-panels
   - pip:
       - sphinx-documatt-theme

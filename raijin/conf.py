@@ -29,6 +29,7 @@ copyright = f'2021-{datetime.datetime.now().year}, {author}'
 # ones.
 extensions = [
     'myst_nb',
+    'sphinx_panels',
 ]
 
 # Define what extensions will parse which kind of source file
@@ -86,7 +87,6 @@ html_theme_options = {
 html_sidebars = {
     '**': [],
 }
-
 
 # MyST config
 myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image']
