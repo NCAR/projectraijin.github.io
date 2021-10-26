@@ -15,10 +15,6 @@ import datetime
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-import os
-import sys
-
-sys.path.insert(0, os.path.abspath('_extensions'))
 
 # -- Project information -----------------------------------------------------
 
@@ -33,8 +29,6 @@ copyright = f'2021-{datetime.datetime.now().year}, {author}'
 # ones.
 extensions = [
     'myst_nb',
-    'pythia',
-    'sphinx_panels',
 ]
 
 # Define what extensions will parse which kind of source file
@@ -56,12 +50,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'sphinx_pythia_theme'
-# html_theme_path = ['..']
-# html_last_updated_fmt = '%d %B %Y'
-import sphinx_bootstrap_theme
-html_theme = 'bootstrap'
-html_theme_path = sphinx_bootstrap_theme.get_html_theme_path()
+html_theme = 'sphinx_documatt_theme'
 
 # Logo & Title
 html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
@@ -79,48 +68,9 @@ html_permalinks_icon = '<i class="bi bi-link"></i>'
 html_static_path = ['_static']
 html_css_files = ['custom.css']
 
-# # sphinx-pythia theme HTML Theme-specific Options
-# html_theme_options = {
-#     'onepagers': [
-#         'index',
-#     ],
-#     'logos_bar': {
-#         'NCAR': '/_static/images/logos/NCAR-contemp-logo-blue.svg',
-#         'Unidata': '/_static/images/logos/Unidata_logo_horizontal_1200x300.svg',
-#         'UAlbany': '/_static/images/logos/UAlbany-A2-logo-purple-gold.svg',
-#     },
-#     'sponsor_text': 'This material is based upon work supported by the National Science Foundation under Grant Nos. 2026863 and 2026899. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.',
-#     'sponsor_logo': '/_static/images/logos/footer-logo-nsf.png',
-# }
-
 # HTML sphinx_bootstrap_theme Theme-specific Options
 html_theme_options = {
-    # Render the next and previous page links in navbar. (Default: true)
-    'navbar_sidebarrel': True,
 
-    # Render the current pages TOC in the navbar. (Default: true)
-    'navbar_pagenav': False,
-
-    # HTML navbar class (Default: "navbar") to attach to <div> element.
-    # For black navbar, do "navbar navbar-inverse"
-    'navbar_class': 'navbar navbar-inverse',
-
-    # Location of link to source.
-    # Options are "nav" (default), "footer" or anything else to exclude.
-    'source_link_position': 'none',
-
-    # Bootswatch (http://bootswatch.com/) theme.
-    #
-    # Options are nothing (default) or the name of a valid theme
-    # such as "cosmo" or "sandstone".
-    #
-    # The set of valid themes depend on the version of Bootstrap
-    # that's used (the next config option).
-    #
-    # Currently, the supported themes are:
-    # - Bootstrap 2: https://bootswatch.com/2
-    # - Bootstrap 3: https://bootswatch.com/3
-    # 'bootswatch_theme': "cosmo",
 }
 
 # # Disable sidebars on all Portal Pages
@@ -128,8 +78,6 @@ html_theme_options = {
 #     '**': [],
 # }
 
-# Panels config
-panels_add_bootstrap_css = False
 
 # MyST config
 myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'html_image']
