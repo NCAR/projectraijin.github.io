@@ -1,5 +1,26 @@
 # The Raijin Team
 
+The Raijin administration team is a consortium between NCAR and Pennsylvania
+State University. NCAR will manage the overall project.
+NCAR's [GeoCAT](https://geocat.ucar.edu/) team will be responsible for the
+development of the Python visualization and analysis functions. While doing so,
+[GeoCAT](https://geocat.ucar.edu/) will ensure that an open development
+environment is established, the implementation work is well documented, and
+the deployments are well aligned with the project milestones as well as
+Scientific Python Ecosystem requirements and specifications. NCAR will also
+provide scientific guidance on operator development and prioritization and
+will liaise with the atmosphere modeling community at NCAR. Pennsylvania
+State University will provide guidance on model grid structures and development
+priorities to evaluate climate data on high-resolution unstructured meshes.
+
+Project Raijin is an Open Development project where any contributions from the
+community is welcome. Therefore, we have project members and collaborators
+outside the Raijin administrators. We thank to any level of contributions in
+advance! Please feel free to reach out to us and have you name listed in the
+team!
+
+The whole team can be seen below:
+
 ## Project Administrators
 
 ````{panels}
