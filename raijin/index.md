@@ -1,3 +1,4 @@
+
 Project Raijin is an NSF EarthCube-funded effort whose goal is to
 enhance the open source analysis and visualization tool landscape
 by developing community-owned, sustainable, scalable tools that
@@ -13,34 +14,11 @@ award, thus helping ensure the long term sustainability of
 the project
 
 <span class="d-flex justify-content-center py-4">
-    <a href="/about.html" role="button" class="btn btn-light btn-lg">
+    <a href="https://ncar.github.io/projectraijin.github.io/about.html" role="button" class="btn btn-light btn-lg">
         Read more about Project Raijin
     </a>
 </span>
 
-# Development Environment
-
-The primary environment for Project Raijin is the Scientific
-Python Ecosystem. We will leverage, in particular, the open
-development Xarray and Dask packages, and the Pangeo community.
-To better support both of these primary goals, our work will be
-conducted under an open development model that encourages
-participation in all aspects of the project’s development. This
-presentation will provide an overview of Project Raijin, with an
-emphasis on describing our open development model and how the
-community can get involved.
-
-# Contributing
-
-Anyone can contribute to and participate in Project Raijin!
-We conduct all of our work in the open, and all of our work is
-Open Source Licensed.
-We welcome contributions from anyone in the community.
-Please see our Contributor’s Guide ...
-
-# The Project Raijin Team
-
-The ...
 
 ```{toctree}
 ---
@@ -50,4 +28,5 @@ maxdepth: 1
 about.md
 contributing.md
 geocat.md
+team.md
 ```

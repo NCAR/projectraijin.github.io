@@ -37,7 +37,7 @@ source_suffix = {
 }
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = []
+templates_path = ['_templates']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -76,14 +76,16 @@ html_theme_options = {
     'footer_logo_style': 'width: 20rem;',
     'motto': 'Community-owned, sustainable, scalable tools on unstructured climate '
              'and global weather data',
-    'cover_image': '_static/images/mpas-cam_se.jpg',
-    # 'cover_image_style': 'width: 1000px;',
+    'cover_image': 'images/mpas-cam_se.jpg',
+    'cover_image_style': 'width: 600px;',
+    'right_sidebars': '',
+    'globaltoc_titles_only': False,
 }
 
-# # Disable sidebars on all Portal Pages
-# html_sidebars = {
-#     '**': [],
-# }
+# Disable sidebars on all Portal Pages
+html_sidebars = {
+    '**': [],
+}
 
 
 # MyST config
