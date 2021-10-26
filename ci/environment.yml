@@ -9,3 +9,5 @@ dependencies:
   - sphinx-book-theme
   - sphinx-panels
   - sphinx_bootstrap_theme
+  - pip:
+      - sphinx-documatt-theme
