@@ -54,23 +54,30 @@ html_theme = 'sphinx_documatt_theme'
 
 # Logo & Title
 html_logo = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
-html_title = ''
+html_title = 'Project Raijin'
 
 # Favicon
-html_favicon = '_static/images/icons/favicon.ico'
-
-# Permalinks Icon
-html_permalinks_icon = '<i class="bi bi-link"></i>'
+html_favicon = '_static/images/logos/GeoCAT_Final_Logos-01.svg'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
-html_css_files = ['custom.css']
 
 # HTML sphinx_bootstrap_theme Theme-specific Options
 html_theme_options = {
-
+    'header_text': 'Project Raijin',
+    'header_logo_style': 'width: 10rem;',
+    'footer_text': 'This material is based upon work supported by the National '
+                   'Science Foundation. Any opinions, findings, and conclusions '
+                   'or recommendations expressed in this material are those of '
+                   'the author(s) and do not necessarily reflect the views of '
+                   'the National Science Foundation.',
+    'footer_logo_style': 'width: 20rem;',
+    'motto': 'Community-owned, sustainable, scalable tools on unstructured climate '
+             'and global weather data',
+    'cover_image': '_static/images/mpas-cam_se.jpg',
+    # 'cover_image_style': 'width: 1000px;',
 }
 
 # # Disable sidebars on all Portal Pages

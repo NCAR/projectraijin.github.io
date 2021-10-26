@@ -1,4 +1,4 @@
-# About Project Raijin
+# About
 
 Culminating nearly two decades of development and evaluation, the climate and global weather modeling
 communities have in recent years begun to transition in earnest to dynamical cores employing more flexible,
@@ -19,7 +19,7 @@ impact of greatly increasing data volume, and lack of tools capable of operating
 alone scalable tools, gravely impacts the climate and global weather modeling community’s ability to reap
 the full benefits of the substantial investments made in these next generation models.
 
-## Project Raijin Goals
+## Goals
 
 The goal of this project, which we call Raijin, is to enhance the analysis and visualization tool landscape
 by developing community-owned, sustainable, scalable tools that facilitate operating on unstructured grid

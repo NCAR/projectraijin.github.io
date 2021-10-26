@@ -1,7 +1,3 @@
-![](_static/images/mpas-cam_se.jpg)
-
-# Project Raijin
-
 Project Raijin is an NSF EarthCube-funded effort whose goal is to
 enhance the open source analysis and visualization tool landscape
 by developing community-owned, sustainable, scalable tools that
@@ -22,7 +18,7 @@ the project
     </a>
 </span>
 
-## Development Environment
+# Development Environment
 
 The primary environment for Project Raijin is the Scientific
 Python Ecosystem. We will leverage, in particular, the open
@@ -34,7 +30,7 @@ presentation will provide an overview of Project Raijin, with an
 emphasis on describing our open development model and how the
 community can get involved.
 
-### Contributing
+# Contributing
 
 Anyone can contribute to and participate in Project Raijin!
 We conduct all of our work in the open, and all of our work is
@@ -42,7 +38,7 @@ Open Source Licensed.
 We welcome contributions from anyone in the community.
 Please see our Contributor’s Guide ...
 
-## The Project Raijin Team
+# The Project Raijin Team
 
 The ...
 
