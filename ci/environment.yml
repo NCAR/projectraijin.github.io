@@ -8,4 +8,4 @@ dependencies:
   - sphinx
   - sphinx-book-theme
   - sphinx-panels
-#  - sphinx_bootstrap_theme
+  - sphinx_bootstrap_theme
