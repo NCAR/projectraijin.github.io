@@ -79,7 +79,7 @@ html_theme_options = {
     'cover_image': 'images/mpas-cam_se.jpg',
     'cover_image_style': 'width: 600px;',
     'right_sidebars': '',
-    'globaltoc_titles_only': False,
+    'globaltoc_titles_only': True,
 }
 
 # Disable sidebars on all Portal Pages
