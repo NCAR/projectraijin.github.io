@@ -13,7 +13,7 @@ award, thus helping ensure the long term sustainability of
 the project.
 
 
-# Intro
+# Introduction
 
 Culminating nearly two decades of development and evaluation, the climate and global weather modeling
 communities have in recent years begun to transition in earnest to dynamical cores employing more flexible,
