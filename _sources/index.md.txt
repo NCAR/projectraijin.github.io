@@ -67,4 +67,5 @@ maxdepth: 1
 team.md
 contributing.md
 about.md
+contact.md
 ```
