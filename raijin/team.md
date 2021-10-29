@@ -81,6 +81,16 @@ The whole team can be seen below:
 
 <i class="bi" style="font-size: 1rem;"></i>
 <br/>
+**Cecile Hannay**
+<br/>
+[**NCAR**](https://ncar.ucar.edu)
+<br/>
+[@cecilehannay](https://github.com/cecilehannay)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
 **Michaela Sizemore**
 <br/>
 [**NCAR**](https://ncar.ucar.edu)
