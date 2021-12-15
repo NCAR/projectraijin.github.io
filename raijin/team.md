@@ -125,6 +125,26 @@ The whole team can be seen below:
 
 <i class="bi" style="font-size: 1rem;"></i>
 <br/>
+**Rob Jacob**
+<br/>
+[**Argonne National Laboratory**](http://www.mcs.anl.gov/~jacob)
+<br/>
+[@rljacob](https://github.com/rljacob)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Rajeev Jain**
+<br/>
+[**Argonne National Laboratory**](https://www.anl.gov/profile/rajeev-jain)
+<br/>
+[@rajeeja](https://github.com/rajeeja)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
 **Falko Judt**
 <br/>
 [**NCAR**](https://ncar.ucar.edu)
@@ -156,5 +176,25 @@ The whole team can be seen below:
 [**Max-Planck Institute**](https://mpimet.mpg.de/en/staff/bjorn-stevens/)
 <br/>
 [@bjorn-stevens](https://github.com/bjorn-stevens)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Paul Ullrich**
+<br/>
+[**University of California, Davis**](https://climate.ucdavis.edu/)
+<br/>
+[@paullric](https://github.com/paullric)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Jill Chengzhu Zhang**
+<br/>
+[**Lawrence Livermore National Laboratory**](https://people.llnl.gov/zhang40)
+<br/>
+[@chengzhuzhang](https://github.com/chengzhuzhang)
 
 ````
