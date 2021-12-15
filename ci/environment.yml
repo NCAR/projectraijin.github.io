@@ -3,9 +3,9 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - myst-nb==0.12.3
+  - myst-nb
   - pre-commit
-  - sphinx>=4.2.0
+  - sphinx
   - sphinx-panels
   - pip:
       - sphinx-documatt-theme
