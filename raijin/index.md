@@ -60,11 +60,19 @@ model that encourages participation in the project at all levels. Relatedly, to 
 interoperability, sustainability, usability and repurposing our work, we will adhere to practices
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.
 
+
+# Uxarray
+
+To import unstructured data into Python, we will create a new Python object based on Xarray, called
+UXarray, which will support reading and recognizing unstructured grid models. For detailed
+information, please see our [Uxarray](https://raijin.ucar.edu/uxarray.html) section.
+
 ```{toctree}
 ---
 hidden: True
 maxdepth: 1
 ---
+uxarray.md
 team.md
 contributing.md
 about.md
