@@ -75,6 +75,13 @@ advocated by the NSF Recommended Standards and Specifications for EarthCube Proj
 
 # Uxarray
 
-To import unstructured data into Python, we will create a new Python object based on Xarray, called
-UXarray, which will support reading and recognizing unstructured grid models. For detailed
-information, please see our [Uxarray](https://raijin.ucar.edu/uxarray.html) section.
+To import unstructured data into Python, we are creating a new Python object based on Xarray,
+called UXarray, which will support reading and recognizing unstructured grid models. To read
+further documentation, work with the code, start a discussion, make a request, or report
+an issue, please visit:
+
+[Uxarray at Raijin homepage](https://raijin.ucar.edu/uxarray.html)
+
+[UXarray Github repository](https://github.com/UXARRAY/uxarray)
+
+[UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)

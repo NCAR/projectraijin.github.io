@@ -16,7 +16,7 @@ a discussion, make a request, or report an issue, please visit:
 
 [UXarray Github repository](https://github.com/UXARRAY/uxarray)
 
-[UXarray documentation website](https://uxarray.readthedocs.io/en/latest/index.html)
+[UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)
 
 Initially, we will support: MPAS (atmosphere and ocean), SE, FV3, and ICON. UXarray
 will follow the model of the UGRID specification, currently under consideration
