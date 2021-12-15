@@ -25,6 +25,8 @@ and therefore, more realistic simulations of the earth’s oceans and atmosphere
 worldwide are now deploying unstructured grid dynamical cores (or “dycores”) with the ultimate long
 term pursuit of producing the world’s first global cloud resolving model.
 
+![](_static/images/lat_lon-mpas-cam_se.png)
+
 The adoption of unstructured mesh models by so many geoscience communities brings with it a two-
 fold cost. First, the increased model resolution enabled by these dycores results in the output of more
 data, further exacerbating an already existing “Big Data” problem. Second, the existing, general purpose
@@ -57,7 +59,6 @@ To better support both of our primary goals, our work will be conducted under an
 model that encourages participation in the project at all levels. Relatedly, to better support
 interoperability, sustainability, usability and repurposing our work, we will adhere to practices
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.
-
 
 ```{toctree}
 ---

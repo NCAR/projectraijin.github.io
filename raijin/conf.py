@@ -58,7 +58,7 @@ html_logo = '_static/images/logos/NSF_4-Color_bitmap_Logo.png'
 html_title = 'Project Raijin'
 
 # Favicon
-html_favicon = '_static/images/logos/NSF_4-Color_bitmap_Logo.png'
+html_favicon = '_static/images/logos/ProjectRaijin_Logo_white.png'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -67,7 +67,7 @@ html_static_path = ['_static']
 
 # HTML sphinx_bootstrap_theme Theme-specific Options
 html_theme_options = {
-    'header_text': '',
+    'header_text': ' ',
     'header_logo_style': 'width: 8rem;',
     'footer_text': 'This material is based upon work supported by the National '
                    'Science Foundation. Any opinions, findings, and conclusions '
@@ -77,8 +77,8 @@ html_theme_options = {
     'footer_logo_style': 'width: 10rem;',
     'motto': 'Community-owned, sustainable, scalable tools on unstructured climate '
              'and global weather data',
-    'cover_image': 'images/mpas-cam_se.jpg',
-    'cover_image_style': 'width: 600px;',
+    'cover_image': 'images/logos/ProjectRaijin_Logo.png',
+    'cover_image_style': 'width: 700px;',
     'right_sidebars': '',
     'globaltoc_titles_only': True,
 }
