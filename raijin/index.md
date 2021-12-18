@@ -25,6 +25,8 @@ and therefore, more realistic simulations of the earth’s oceans and atmosphere
 worldwide are now deploying unstructured grid dynamical cores (or “dycores”) with the ultimate long
 term pursuit of producing the world’s first global cloud resolving model.
 
+![](_static/images/lat_lon-mpas-cam_se.png)
+
 The adoption of unstructured mesh models by so many geoscience communities brings with it a two-
 fold cost. First, the increased model resolution enabled by these dycores results in the output of more
 data, further exacerbating an already existing “Big Data” problem. Second, the existing, general purpose
@@ -59,11 +61,25 @@ interoperability, sustainability, usability and repurposing our work, we will ad
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.
 
 
+# Uxarray
+
+To import unstructured data into Python, we will create a new Python object based on Xarray, called
+UXarray, which will support reading and recognizing unstructured grid models. To read
+further documentation, work with the code, start a discussion, make a request, or report
+an issue, please visit:
+
+[Uxarray page](https://raijin.ucar.edu/uxarray.html)
+
+[UXarray Github repository](https://github.com/UXARRAY/uxarray)
+
+[UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)
+
 ```{toctree}
 ---
 hidden: True
 maxdepth: 1
 ---
+uxarray.md
 team.md
 contributing.md
 about.md

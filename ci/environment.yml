@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - myst-nb==0.12.3
+  - myst-nb
   - pre-commit
   - sphinx
   - sphinx-panels
