@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    
+    <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <meta itemprop="sphinx_documatt_theme" content="0.0.5"><title>Introduction &mdash; Project Raijin</title>
+
+    <meta itemprop="sphinx_documatt_theme" content="0.0.5"><title>Introduction &mdash; Project Raijin - Community-owned, sustainable, scalable tools on unstructured climate and global weather data</title>
 
     
         
@@ -16,13 +17,17 @@
         <link rel="stylesheet" href="_static/pygments.css" type="text/css"/>
         
         
+            <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+        
+            <link rel="stylesheet" type="text/css" href="_static/css/main.css" />
+        
             <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
         
             <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
         
-            <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-        
             <link rel="stylesheet" type="text/css" href="_static/panels-bootstrap.5fd3999ee7762ccc51105388f4a9d115.css" />
+        
+            <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
         
             <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
         
@@ -35,22 +40,23 @@
                 src="_static/documentation_options.js"></script>
 
         
+            <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
             <script src="_static/jquery.js"></script>
             <script src="_static/underscore.js"></script>
             <script src="_static/doctools.js"></script>
             <script src="_static/togglebutton.js"></script>
-            <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+            <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
     
 
     
         
-        <link rel="shortcut icon" href="_static/NSF_4-Color_bitmap_Logo.png"/>
+        <link rel="shortcut icon" href="_static/ProjectRaijin_Logo_white.png"/>
     
             <link rel="author" title="About these documents"
                   href="about.html"/>
             <link rel="index" title="Index" href="genindex.html"/>
             <link rel="search" title="Search" href="search.html"/>
-            <link rel="next" title="The Raijin Team" href="team.html"/>
+            <link rel="next" title="Uxarray" href="uxarray.html"/>
 
     
 
@@ -90,6 +96,12 @@
                                 
                                 />
                             
+                                <p class="title is-3"
+                                
+                                >
+                                     
+                                </p>
+                            
                         </a>
                         <!--<a role="button" class="navbar-burger burger" aria-label="menu"
                            aria-expanded="false"
@@ -103,6 +115,8 @@
                     
 <div id="navbarMenu" class="navbar-menu">
     <div class="navbar-end">
+        <a class="navbar-item"
+           href="https://raijin.ucar.edu/uxarray.html">UXarray</a>
         <a class="navbar-item"
            href="https://raijin.ucar.edu/team.html">Team</a>
         <a class="navbar-item"
@@ -158,9 +172,9 @@
                             
                             <a href="#">
                                 <figure class="image">
-                                    <img src="_static/images/mpas-cam_se.jpg" alt="Community-owned, sustainable, scalable tools on unstructured climate and global weather data"
+                                    <img src="_static/images/logos/ProjectRaijin_Logo.png" alt="Community-owned, sustainable, scalable tools on unstructured climate and global weather data"
                                     
-                                        style="width: 600px;"
+                                        style="width: 700px;"
                                     
                                     >
                                 </figure>
@@ -206,7 +220,7 @@ establish an active, vibrant community of user-contributors,
 committed to extending our work beyond the scope of this NSF
 award, thus helping ensure the long term sustainability of
 the project.</p>
-<div class="section" id="introduction">
+<section class="tex2jax_ignore mathjax_ignore" id="introduction">
 <h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
 <p>Culminating nearly two decades of development and evaluation, the climate and global weather modeling
 communities have in recent years begun to transition in earnest to dynamical cores employing more flexible,
@@ -217,6 +231,7 @@ computational scalability afforded by unstructured meshes, allowing for higher a
 and therefore, more realistic simulations of the earth’s oceans and atmosphere. Numerous institutions
 worldwide are now deploying unstructured grid dynamical cores (or “dycores”) with the ultimate long
 term pursuit of producing the world’s first global cloud resolving model.</p>
+<p><img alt="" src="_images/lat_lon-mpas-cam_se.png" /></p>
 <p>The adoption of unstructured mesh models by so many geoscience communities brings with it a two-
 fold cost. First, the increased model resolution enabled by these dycores results in the output of more
 data, further exacerbating an already existing “Big Data” problem. Second, the existing, general purpose
@@ -225,8 +240,8 @@ operate on structured grid data, providing little or no support for unstructured
 impact of greatly increasing data volume, and lack of tools capable of operating on these model outputs, let
 alone scalable tools, gravely impacts the climate and global weather modeling community’s ability to reap
 the full benefits of the substantial investments made in these next generation models.</p>
-</div>
-<div class="section" id="goals">
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="goals">
 <h1>Goals<a class="headerlink" href="#goals" title="Permalink to this headline">¶</a></h1>
 <p>The goal of this project, which we call Raijin, is to enhance the analysis and visualization tool landscape
 by developing community-owned, sustainable, scalable tools that facilitate operating on unstructured grid
@@ -239,8 +254,8 @@ global storm resolving resolutions, and</p></li>
 <li><p>establish a vibrant community of user-contributors, committed to extending our work beyond the
 scope of this proposal, and helping ensure the long term sustainability of the project.</p></li>
 </ul>
-</div>
-<div class="section" id="development-environment">
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="development-environment">
 <h1>Development Environment<a class="headerlink" href="#development-environment" title="Permalink to this headline">¶</a></h1>
 <p>The primary environment for this effort will be the Scientific Python Ecosystem. We will leverage, in
 particular, the NSF-supported, open development Xarray and Dask packages, and the Pangeo community.
@@ -248,9 +263,19 @@ To better support both of our primary goals, our work will be conducted under an
 model that encourages participation in the project at all levels. Relatedly, to better support
 interoperability, sustainability, usability and repurposing our work, we will adhere to practices
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.</p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="uxarray">
+<h1>Uxarray<a class="headerlink" href="#uxarray" title="Permalink to this headline">¶</a></h1>
+<p>To import unstructured data into Python, we will create a new Python object based on Xarray, called
+UXarray, which will support reading and recognizing unstructured grid models. To read
+further documentation, work with the code, start a discussion, make a request, or report
+an issue, please visit:</p>
+<p><a class="reference external" href="https://raijin.ucar.edu/uxarray.html">Uxarray page</a></p>
+<p><a class="reference external" href="https://github.com/UXARRAY/uxarray">UXarray Github repository</a></p>
+<p><a class="reference external" href="https://uxarray.readthedocs.io/en/latest/index.html">UXarray documentation</a></p>
 <div class="toctree-wrapper compound">
 </div>
-</div>
+</section>
 
 
 
@@ -259,8 +284,8 @@ advocated by the NSF Recommended Standards and Specifications for EarthCube Proj
                                 <p class="has-text-weight-light is-size-6 my-4">
                                 
                                     Next:
-                                    <a href="team.html"
-                                       title="next chapter">The Raijin Team</a>
+                                    <a href="uxarray.html"
+                                       title="next chapter">Uxarray</a>
                                 </p>
                             
                         </article>
