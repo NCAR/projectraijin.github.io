@@ -20,4 +20,6 @@ Reaching us via email is as easy as:
 We would like to provide our readers with the following chart to clarify which repository to go and
 whether to use Github Issues or Discussions for specific communications:
 
-<embed src="_static/how_to_communicate_through_github.pdf" type="application/pdf" width="960" height="600">
+<object data="_static/how_to_communicate_through_github.pdf?#scrollbar=0&toolbar=0&navpanes=0" type="application/pdf" width="930" height="527">
+    <embed src="_static/how_to_communicate_through_github.pdf" type="application/pdf">
+</object>
