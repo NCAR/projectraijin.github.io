@@ -7,11 +7,11 @@ For the source code for the UXarray package, please visit the [UXarray Github re
 This is the home repository for the [Project Raijin](https://raijin.ucar.edu).
 The website is built with [sphinx](https://www.sphinx-doc.org/).
 
-![](raijin/_static/images/logos/ProjectRaijin_Logo.png)
+![Project Raijin logo](raijin/_static/images/logos/ProjectRaijin_Logo.png)
 
 # Project Raijin
 
-Community-owned, sustainable, scalable tools on unstructured climate and global weather data
+**Community-owned, sustainable, scalable tools on unstructured climate and global weather data**
 
 Project Raijin is an NSF EarthCube-funded effort whose goal is to
 enhance the open source analysis and visualization tool landscape
@@ -26,7 +26,6 @@ establish an active, vibrant community of user-contributors,
 committed to extending our work beyond the scope of this NSF
 award, thus helping ensure the long term sustainability of
 the project.
-
 
 # Introduction
 
@@ -51,7 +50,6 @@ impact of greatly increasing data volume, and lack of tools capable of operating
 alone scalable tools, gravely impacts the climate and global weather modeling community’s ability to reap
 the full benefits of the substantial investments made in these next generation models.
 
-
 # Goals
 
 The goal of this project, which we call Raijin, is to enhance the analysis and visualization tool landscape
@@ -65,7 +63,6 @@ climate and weather modelers we plan to:
 - establish a vibrant community of user-contributors, committed to extending our work beyond the
   scope of this proposal, and helping ensure the long term sustainability of the project.
 
-
 # Development Environment
 
 The primary environment for this effort will be the Scientific Python Ecosystem. We will leverage, in
@@ -75,16 +72,15 @@ model that encourages participation in the project at all levels. Relatedly, to 
 interoperability, sustainability, usability and repurposing our work, we will adhere to practices
 advocated by the NSF Recommended Standards and Specifications for EarthCube Projects.
 
+# UXarray
 
-# Uxarray
-
-To import unstructured data into Python, we are creating a new Python object based on Xarray,
+To import unstructured data into Python, we are creating a new Python package based on Xarray,
 called UXarray, which will support reading and recognizing unstructured grid models. To read
 further documentation, work with the code, start a discussion, make a request, or report
 an issue, please visit:
 
-[Uxarray at Raijin homepage](https://raijin.ucar.edu/uxarray.html)
+- [UXarray at Raijin homepage](https://raijin.ucar.edu/uxarray.html)
 
-[UXarray Github repository](https://github.com/UXARRAY/uxarray)
+- [UXarray Github repository](https://github.com/UXARRAY/uxarray)
 
-[UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)
+- [UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)
