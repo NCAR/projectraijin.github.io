@@ -13,13 +13,13 @@ Issue or Discussion:
 
 <span class="d-flex justify-content-center py-4">
     <a href="https://github.com/UXARRAY/uxarray/discussions" target="_blank" role="button" class="btn btn-light btn-lg">
-        Uxarray Discussions
+        UXarray Discussions
     </a>
 </span>
 
 <span class="d-flex justify-content-center py-4">
     <a href="https://github.com/UXARRAY/uxarray/issues" target="_blank" role="button" class="btn btn-light btn-lg">
-        Uxarray Issues
+        UXarray Issues
     </a>
 </span>
 
