@@ -12,18 +12,6 @@ to ask, or want to see what others in the community have previously discussed? O
 Issue or Discussion:
 
 <span class="d-flex justify-content-center py-4">
-    <a href="https://github.com/NCAR/projectraijin.github.io/discussions" target="_blank" role="button" class="btn btn-light btn-lg">
-        Project Raijin Discussions
-    </a>
-</span>
-
-<span class="d-flex justify-content-center py-4">
-    <a href="https://github.com/NCAR/projectraijin.github.io/issues" target="_blank" role="button" class="btn btn-light btn-lg">
-        Project Raijin Issues
-    </a>
-</span>
-
-<span class="d-flex justify-content-center py-4">
     <a href="https://github.com/UXARRAY/uxarray/discussions" target="_blank" role="button" class="btn btn-light btn-lg">
         Uxarray Discussions
     </a>
