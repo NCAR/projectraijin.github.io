@@ -37,7 +37,7 @@ and therefore, more realistic simulations of the earth’s oceans and atmosphere
 worldwide are now deploying unstructured grid dynamical cores (or “dycores”) with the ultimate long
 term pursuit of producing the world’s first global cloud resolving model.
 
-![](_static/images/lat_lon-mpas-cam_se.png)
+![diagram showing three global grids, the first is latitude-longitude structured grid, the second is an icocahedral grid (MPAS-A), and the third is a variable resolution cube sphere grid (CAM-SE)](raijin/_static/images/lat_lon-mpas-cam_se.png)
 
 The adoption of unstructured mesh models by so many geoscience communities brings with it a two-
 fold cost. First, the increased model resolution enabled by these dycores results in the output of more
