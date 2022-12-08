@@ -11,7 +11,7 @@ The website is built with [sphinx](https://www.sphinx-doc.org/).
 
 # Project Raijin
 
-*Community-owned, sustainable, scalable tools on unstructured climate and global weather data*
+> *Community-owned, sustainable, scalable tools on unstructured climate and global weather data*
 
 Project Raijin is an NSF EarthCube-funded effort whose goal is to
 enhance the open source analysis and visualization tool landscape
