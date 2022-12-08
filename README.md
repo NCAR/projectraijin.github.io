@@ -1,6 +1,9 @@
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/NCAR/projectraijin.github.io/deploy-site/main?logo=github&style=for-the-badge)
 
+> NOTE: This repository only contains source code for the Project Raijin website.
+For the source code for the UXarray package, please visit the [UXarray Github repository](https://github.com/UXARRAY/uxarray)
+
 This is the home repository for the [Project Raijin](https://raijin.ucar.edu).
 The website is built with [sphinx](https://www.sphinx-doc.org/).
 
