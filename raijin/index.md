@@ -74,6 +74,7 @@ an issue, please visit:
 
 [UXarray documentation](https://uxarray.readthedocs.io/en/latest/index.html)
 
+
 # Calendar
 
 Anyone is welcome to attend our monthly open meetings.
