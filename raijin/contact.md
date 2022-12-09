@@ -32,3 +32,9 @@ If you'd like to reach us via email:
         Shoot us an email
     </a>
 </span>
+
+## By Attending an Open Meeting
+
+Feel free to join our monthly meetings:
+
+<iframe src="https://calendar.google.com/calendar/embed?src=c_592e80665d19d11d08b8dc45eabf2c0272e2cfc2e6b9975128074b96da53e593%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
