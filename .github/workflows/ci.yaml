@@ -18,7 +18,6 @@ jobs:
         with:
           channels: conda-forge,nodefaults
           channel-priority: strict
-          mamba-version: '*'
           activate-environment: raijin
           auto-update-conda: false
           python-version: 3.9
