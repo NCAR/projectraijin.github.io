@@ -1,15 +1,15 @@
 # The Raijin Team
 
-The Raijin administration team is a consortium between NCAR and Pennsylvania
-State University. NCAR will manage the overall project.
-NCAR's [GeoCAT](https://geocat.ucar.edu/) team will be responsible for the
+The Raijin administration team is a consortium between NSF NCAR and Pennsylvania
+State University. NSF NCAR will manage the overall project.
+NSF NCAR's [GeoCAT](https://geocat.ucar.edu/) team will be responsible for the
 development of the Python visualization and analysis functions. While doing so,
 [GeoCAT](https://geocat.ucar.edu/) will ensure that an open development
 environment is established, the implementation work is well documented, and
 the deployments are well aligned with the project milestones as well as
-Scientific Python Ecosystem requirements and specifications. NCAR will also
+Scientific Python Ecosystem requirements and specifications. NSFNCAR will also
 provide scientific guidance on operator development and prioritization and
-will liaise with the atmosphere modeling community at NCAR. Pennsylvania
+will liaise with the atmosphere modeling community at NSF NCAR. Pennsylvania
 State University will provide guidance on model grid structures and development
 priorities to evaluate climate data on high-resolution unstructured meshes.
 
@@ -29,7 +29,7 @@ The whole team can be seen below:
 <br/>
 **John Clyne**
 <br/>
-[**NCAR**](https://ncar.ucar.edu)
+[**NSF NCAR**](https://ncar.ucar.edu)
 <br/>
 [@clyne](https://github.com/clyne)
 
@@ -39,7 +39,7 @@ The whole team can be seen below:
 <br/>
 **Orhan Eroglu**
 <br/>
-[**NCAR**](https://ncar.ucar.edu)
+[**NSF NCAR**](https://ncar.ucar.edu)
 <br/>
 [@erogluorhan](https://github.com/erogluorhan)
 
@@ -49,7 +49,7 @@ The whole team can be seen below:
 <br/>
 **Brian Medeiros**
 <br/>
-[**NCAR**](https://ncar.ucar.edu)
+[**NSF NCAR**](https://ncar.ucar.edu)
 <br/>
 [@brianpm](https://github.com/brianpm)
 
@@ -71,11 +71,11 @@ The whole team can be seen below:
 
 <i class="bi" style="font-size: 1rem;"></i>
 <br/>
-**Deepak Cherian**
+**Philip Chmielowiec**
 <br/>
-[**NCAR**](https://ncar.ucar.edu)
+[**NSF NCAR**](https://ncar.ucar.edu/)
 <br/>
-[@dcherian](https://github.com/dcherian)
+[@philipc2](https://github.com/philipc2)
 
 ---
 
@@ -83,29 +83,9 @@ The whole team can be seen below:
 <br/>
 **Cecile Hannay**
 <br/>
-[**NCAR**](https://ncar.ucar.edu)
+[**NSF NCAR**](https://ncar.ucar.edu)
 <br/>
 [@cecilehannay](https://github.com/cecilehannay)
-
----
-
-<i class="bi" style="font-size: 1rem;"></i>
-<br/>
-**Michaela Sizemore**
-<br/>
-[**NCAR**](https://ncar.ucar.edu)
-<br/>
-[@michaelavs](https://github.com/michaelavs)
-
----
-
-<i class="bi" style="font-size: 1rem;"></i>
-<br/>
-**Anissa Zacharias**
-<br/>
-[**NCAR**](https://ncar.ucar.edu)
-<br/>
-[@anissa111](https://github.com/anissa111)
 
 ````
 
@@ -196,5 +176,39 @@ The whole team can be seen below:
 [**Lawrence Livermore National Laboratory**](https://people.llnl.gov/zhang40)
 <br/>
 [@chengzhuzhang](https://github.com/chengzhuzhang)
+
+````
+
+## Former Project Members
+
+````{panels}
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Deepak Cherian**
+<br/>
+[**EarthMover**](https://earthmover.io/)
+<br/>
+[@dcherian](https://github.com/dcherian)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Michaela Sizemore**
+<br/>
+[**NSF NCAR**](https://ncar.ucar.edu)
+<br/>
+[@michaelavs](https://github.com/michaelavs)
+
+---
+
+<i class="bi" style="font-size: 1rem;"></i>
+<br/>
+**Anissa Zacharias**
+<br/>
+[**NSF NCAR**](https://ncar.ucar.edu)
+<br/>
+[@anissa111](https://github.com/anissa111)
 
 ````
