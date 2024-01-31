@@ -70,11 +70,11 @@ html_static_path = ['_static']
 html_theme_options = {
     'header_text': ' ',
     'header_logo_style': 'width: 8rem;',
-    'footer_text': 'This material is based upon work supported by the National '
+    'footer_text': 'This material is based upon work supported by the U.S. National '
                    'Science Foundation. Any opinions, findings, and conclusions '
                    'or recommendations expressed in this material are those of '
                    'the author(s) and do not necessarily reflect the views of '
-                   'the National Science Foundation.',
+                   'the U.S. National Science Foundation.',
     'footer_logo_style': 'width: 10rem;',
     'motto': 'Community-owned, sustainable, scalable tools on unstructured climate '
              'and global weather data',
