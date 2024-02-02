@@ -1,5 +1,4 @@
-
-![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/NCAR/projectraijin.github.io/deploy-site/main?logo=github&style=for-the-badge)
+[![BUILD](https://github.com/NCAR/projectraijin.github.io/actions/workflows/ci.yaml/badge.svg)](https://github.com/NCAR/projectraijin.github.io/actions/workflows/ci.yaml)
 
 > NOTE: This repository only contains source code for the Project Raijin website.
 For the source code for the UXarray package, please visit the [UXarray Github repository](https://github.com/UXARRAY/uxarray)
