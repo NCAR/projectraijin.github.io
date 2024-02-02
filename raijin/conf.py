@@ -54,7 +54,7 @@ exclude_patterns = []
 html_theme = 'sphinx_documatt_theme'
 
 # Logo & Title
-html_logo = '_static/images/logos/NSF_4-Color_bitmap_Logo.png'
+html_logo = '_static/images/logos/ProjectRaijin_Logo.png'
 html_title = 'Project Raijin - Community-owned, sustainable, scalable tools ' \
              'on unstructured climate and global weather data'
 
