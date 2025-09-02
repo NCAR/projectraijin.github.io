@@ -7,7 +7,7 @@ development of the Python visualization and analysis functions. While doing so,
 [GeoCAT](https://geocat.ucar.edu/) will ensure that an open development
 environment is established, the implementation work is well documented, and
 the deployments are well aligned with the project milestones as well as
-Scientific Python Ecosystem requirements and specifications. NSFNCAR will also
+Scientific Python Ecosystem requirements and specifications. NSF NCAR will also
 provide scientific guidance on operator development and prioritization and
 will liaise with the atmosphere modeling community at NSF NCAR. Pennsylvania
 State University will provide guidance on model grid structures and development
