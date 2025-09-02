@@ -2,7 +2,7 @@ name: raijin
 channels:
   - conda-forge
 dependencies:
-  - python
+  - python<3.13 # imghdr removed in Python 3.13
   - myst-nb
   - pre-commit
   - sphinx
