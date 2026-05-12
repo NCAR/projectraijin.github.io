@@ -80,7 +80,7 @@ an issue, please visit:
 Project Raijin calendar events (basically our monthly meetings for now) are
 open to public; so anyone with any level of familiarity is welcome to attend!
 
-<iframe src="https://calendar.google.com/calendar/embed?src=c_aded7956c547d66408841073b714d36d98955376d40f43f32efb1d6bad3b9824%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_592e80665d19d11d08b8dc45eabf2c0272e2cfc2e6b9975128074b96da53e593%40group.calendar.google.com&ctz=America%2FDenver" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ```{toctree}
 ---
